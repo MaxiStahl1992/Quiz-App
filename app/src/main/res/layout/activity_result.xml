@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrund"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context="de.example.quizapp.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Ergebnis"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="image"
+        android:src="@drawable/trophy"/>
+    <TextView
+        android:id="@+id/tv_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Herzlichen Glückwunsch"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Username"/>
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        tools:text="Du hast 9 von 10 Fragen richtig beantwortet!"/>
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/turquoise_2"
+        android:text="FERTIG"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+</LinearLayout>
